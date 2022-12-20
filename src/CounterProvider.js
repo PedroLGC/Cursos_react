@@ -3,7 +3,7 @@ import { CounterContext } from "./CounterContext";
 
 export const CounterProvider = ({ children }) => {
 	const [numberOfClicks, setNumberOfClicks] = useState(0);
-	const [incrementBy, setIncrementBy] = useState(1);
+	const [incrementBy, setIncrementBy] = useState(3);
 
 	const increment = (amount) => {
 		setNumberOfClicks(numberOfClicks + incrementBy);
